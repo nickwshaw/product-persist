@@ -1,0 +1,27 @@
+{
+    "name": "willshawtech/dixons",
+    "description": "Simple product search",
+    "authors": [
+        {
+            "name": "Nick Shaw",
+            "email": "nickshaw76@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/cache": "^3.3",
+        "pimple/pimple": "~3.0",
+        "acclimate/container": "~1.1.0",
+        "symfony/yaml": "^3.3",
+        "symfony/serializer": "^3.3",
+        "symfony/property-access": "^3.3",
+        "symfony/event-dispatcher": "^3.3"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "~4.8"
+    },
+    "autoload": {
+      "psr-4": {
+        "Willshaw\\": "src/"
+      }
+    }
+}
