@@ -1,0 +1,4 @@
+# Persistence driver choose either mysql or elasticsearch
+persistence_driver: "mysql"
+cache: "file"
+request_log: "log/request_log.json"
